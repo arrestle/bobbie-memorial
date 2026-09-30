@@ -1,4 +1,0 @@
-Map drawn in September 2026 from the stamps and handwritten notes in her first passport (#199-#204; full itinerary in the note for #204). Country outlines from Natural Earth (public domain), with 1977 borders labelled.
-Dashed lines mark stretches with no stamps, so the exact route is not known: Zahony to Poland (Sept. 28 - Oct. 9), West Berlin to Hook of Holland, and Madrid to Folkestone (Nov. 2 - Dec. 6).
-"Poland" is marked at Warsaw only to place it on the map; the passport does not show where in Poland she was.
-Generator script: journey_map.py in the working scratch folder.

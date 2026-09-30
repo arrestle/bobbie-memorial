@@ -1,2 +1,0 @@
-Map drawn in September 2026 from the stamps in her third passport (#215-#222; full itinerary in the note for #222). Country outlines from Natural Earth (public domain). Each trip is drawn from Bloomington to where she went; the lines do not show the routes she took.
-Generator script: journey_map3.py in the working scratch folder.
