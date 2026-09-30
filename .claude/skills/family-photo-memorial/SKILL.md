@@ -72,6 +72,15 @@ Use the life story, not the album order - a single album page often mixes decade
 - **Pairs** (two images side by side on one slide) for: the front and signed back of a photo, a photo and its keepsake (napkin, card), or a tall newspaper clipping split into its photo and its article.
 - Let the family re-arrange: "remove the top left", "put 140 lower left" should be one quick rebuild.
 
+## Passports and travel documents
+
+Old passports are dated, placed travel diaries. For each passport make two slides: a collage of the identity page and the stamped pages, then a map of the journeys it records, both on an antique parchment background. The steps are in `references/passports.md`. In short:
+
+- One `Separated/` file per page opening, named with page numbers and countries; blank pages left out; no enhancement (it wrecks the pale security print).
+- Read every stamp (date, place, entry or exit) and copy her handwritten notes exactly. Write the full itinerary, in date order and grouped into trips, into the collage's `.txt` note, and mark every uncertain reading.
+- Maps: numbered stops with a dated legend for one long journey; home-to-destination lines for many separate trips; dashed lines where no stamp shows the route; the period's borders (East and West Germany, the USSR). Keep the map script in the repo so it can be redrawn.
+- Parchment: `scripts/parchment.py make`, then `blend` each flat-background image onto the matching patch, set the same texture as the slide background, drop the picture shadow and use dark ink for the captions.
+
 ## Documents that aren't photos
 
 Memoir essays, letters, obituaries and newspaper articles are gold for captions but usually don't belong on slides. Transcribe them word for word into a Markdown file (mark illegible words in [brackets], keep original spelling), cite them from the timeline, and quote them in captions where they add warmth. Note, gently and separately, any historical details the memory got wrong - never "correct" the quote itself.
@@ -97,6 +106,8 @@ Handy numbers to offer: slides × seconds per slide ÷ 60 = running time (125 sl
 
 ## Tools
 
+- `scripts/parchment.py` - `make` (antique parchment texture) and `blend` (print a map or passport collage onto it); see `references/passports.md`.
 - `scripts/photo_tools.py` - `measure-tilt`, `straighten`, `enhance` (gentle / color), `collage`, `stitch`, `contact-sheet`. Run with `--help` on any subcommand. Needs Pillow, numpy, scipy, scikit-image, opencv-python-headless (make a venv in the scratch area if they're missing).
 - `scripts/build_deck.js` - slideshow builder (needs `pptxgenjs`; `npm install pptxgenjs` in a scratch folder if `require` fails).
 - `references/deck-manifest.md` - the manifest format the deck builder reads.
+- `references/passports.md` - passports: reading stamps, the itinerary note, collage, journey map and parchment slides.
