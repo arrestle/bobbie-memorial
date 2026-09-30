@@ -1,0 +1,3 @@
+Map drawn in September 2026 from the stamps and her handwritten notes in her second passport (#206-#213; full itinerary in the note for #213). Country outlines from Natural Earth (public domain).
+Each trip is drawn from Bloomington to where she went; the lines do not show the routes she took. The East Asia trip (Hong Kong, Pusan, Osaka, Sept. 1986) is in the inset.
+Generator script: journey_map2.py in the working scratch folder.
